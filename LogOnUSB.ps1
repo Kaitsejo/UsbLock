@@ -6,4 +6,4 @@ $Principal = New-ScheduledTaskPrincipal -UserId "NT AUTHORITY\SYSTEM" -LogonType
 
 # Créer la tâche planifiée
 $Task = New-ScheduledTask -Action $Action -Principal $Principal -Trigger $Trigger -Settings $Settings
-Register-ScheduledTask -TaskName "EnableUSBatLogon" -InputObject $Task
+Register-ScheduledTask -TaskName "EnableUSBDevicesBatLogon" -InputObject $Task
