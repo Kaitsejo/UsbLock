@@ -1,2 +1,2 @@
-Unregister-ScheduledTask -TaskName "" -Confirm:$false
-Unregister-ScheduledTask -TaskName "" -Confirm:$false
+Unregister-ScheduledTask -TaskName "EnableUSBDevicesBatLogon" -Confirm:$false
+Unregister-ScheduledTask -TaskName "DisableUSBDevicesOnLock" -Confirm:$false
